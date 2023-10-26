@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Form</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   </head>
+   <body>
+    
+    <div class="container">
+    <form>
+        <div class="form-group">
+            <label>Title</label><br>
+            <input type="text" class="form-control"/>            
+        </div>
+
+        <div class="form-group">
+            <label>Description</label><br>
+            <textarea rows="3" class="form-control"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label>Category</label><br>
+            <input type="text" class="form-control"/>            
+        </div>
+
+        <div class="form-group">
+            <label for="priority">Priority Level</label><br>
+            <select class="form-control">
+                <option>Select an Item</option>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="priority">Priority Level</label><br>
+            <select class="form-control">
+                <option>Select an Item</option>
+                <option value="notstarted">Not Started</option>
+                <option value="pending">Pending</option>
+                <option value="completed">Completed</option>
+            </select>
+        </div>
+        <button class="btn btn-primary">Submit</button>
+    </form>
+    </div>
+   </body>
+</html>
